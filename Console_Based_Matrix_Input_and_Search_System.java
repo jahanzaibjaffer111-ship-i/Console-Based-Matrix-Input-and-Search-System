@@ -42,7 +42,7 @@ public class Console_Based_Matrix_Input_and_Search_System
             while(true)
             {
                 boolean found=false;
-                System.out.println("Entre No you want to search");
+                System.out.println("Entre No you want to search and Type Exit to move on");
                 String s=read.nextLine();
                 if(s.equalsIgnoreCase("exit"))
                 {
@@ -133,4 +133,5 @@ public class Console_Based_Matrix_Input_and_Search_System
             }
         }
     }
+
 }
